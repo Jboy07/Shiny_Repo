@@ -148,7 +148,7 @@ shinyServer(function(input, output) {
             ggplot(aes(x = year, y = mean)) + 
             geom_line(aes(color = movie_length)) +
             theme_wsj() +
-            ggtitle('Averate Rating by Year') +
+            ggtitle('Average Rating by Year') +
             theme(plot.title = element_text(hjust = 0.5))
     )
     

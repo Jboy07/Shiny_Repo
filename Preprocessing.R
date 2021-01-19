@@ -93,7 +93,7 @@ director_df$director = trimws(director_df$director)
   #Drop missing values
   director_df = director_df[!(director_df$director == ''),]
 
-  #Include only directors with 5+ U.S. movies (191 directors)
+  #Include only directors with 5+ U.S. movies
   director_5 = director_df %>% 
     group_by(director) %>%
     filter(country == 'USA') %>% 
@@ -112,7 +112,7 @@ actors_df$actors = trimws(actors_df$actors)
   #Drop missing values
   actors_df = actors_df[!(actors_df$actors == ''),]
 
-  #Include only actors with 20+ U.S. movies (1569 actors)
+  #Include only actors with 10+ U.S. movies
   actors_20 = actors_df %>% 
       group_by(actors) %>%
       filter(country == 'USA') %>% 
