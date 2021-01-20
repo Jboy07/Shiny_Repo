@@ -20,6 +20,6 @@ Notes: Links to my blog page, LinkedIn and GitHub.
 The app also includes a “Date Range” slider which allows the user to view the data output within a certain date range (in years).
 
 
-Link to the Shiny App Here: https://jboy.shinyapps.io/jf_shiny_project/
+Link to the Shiny App: https://jboy.shinyapps.io/jf_shiny_project/
 
 This project was created during the NYC Data Science Academy Fall 2020 Bootcamp.
