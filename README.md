@@ -13,14 +13,13 @@ While the original dataset includes titles dating back to the early 1900s, this 
 The app is divided into the following pages/tabs:
 
 Home: Project overview.
-
 Genre/Duration/Actors & Directors/Country: Data visualizations showing the movie popularity trends in these respective categories.
-
 Data: The cleaned dataset for the user to explore.
-
 Notes: Links to my blog page, LinkedIn and GitHub.
 
 The app also includes a “Date Range” slider which allows the user to view the data output within a certain date range (in years).
 
+
+Link to the Shiny App Here: https://jboy.shinyapps.io/jf_shiny_project/
 
 This project was created during the NYC Data Science Academy Fall 2020 Bootcamp.
